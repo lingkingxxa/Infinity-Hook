@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>MyApp Updates</title>
+    <title>Infinity-Hook Updates</title>
     <link>https://lingkingxxa.github.io/Infinity-Hook/appcast.xml</link>
-    <description>Latest versions of MyApp</description>
+    <description>Application updates for Infinity-Hook</description>
     <language>en</language>
-
-    <item>
-      <title>Version 1.0.0.1</title>
-      <sparkle:version>1.2.3</sparkle:version>
-      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
-      <pubDate>Fri, 23 Jan 2026 12:00:00 GMT</pubDate>
-      <enclosure
-        url="https://your-domain.com/myapp/MyAppSetup_1.2.3.exe"
-        sparkle:version="1.2.3"
-        length="12345678"
-        type="application/octet-stream" />
-    </item>
-
-  </channel>
-</rss>
-
+    
+    <!-- 
+    ========================================
+    INSTRUCTIONS:
+    ========================================
+    1. When you release a new version, add a new <item> at the TOP (below this comment)
+    2. Update the version number in <title>, sparkle:version, and url
+    3. Update the release notes in <description>
+    4. Update <pubDate> to current date (format: DDD, DD MMM YYYY HH:MM:SS +0000)
+    5. Update "length" to actual file size in bytes (right-click installer → Properties)
+    6. Commit and push to GitHub
+    ========================================
+    -->
