@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>MyApp Updates</title>
+    <link>https://your-domain.com/myapp/appcast.xml</link>
+    <description>Latest versions of MyApp</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.2.3</title>
+      <sparkle:version>1.2.3</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+      <pubDate>Fri, 23 Jan 2026 12:00:00 GMT</pubDate>
+      <enclosure
+        url="https://your-domain.com/myapp/MyAppSetup_1.2.3.exe"
+        sparkle:version="1.2.3"
+        length="12345678"
+        type="application/octet-stream" />
+    </item>
+
+  </channel>
+</rss>
