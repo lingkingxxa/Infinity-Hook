@@ -4,12 +4,12 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>MyApp Updates</title>
-    <link>https://your-domain.com/myapp/appcast.xml</link>
+    <link>https://lingkingxxa.github.io/Infinity-Hook/appcast.xml</link>
     <description>Latest versions of MyApp</description>
     <language>en</language>
 
     <item>
-      <title>Version 1.2.3</title>
+      <title>Version 1.0.0.1</title>
       <sparkle:version>1.2.3</sparkle:version>
       <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
       <pubDate>Fri, 23 Jan 2026 12:00:00 GMT</pubDate>
@@ -22,3 +22,4 @@
 
   </channel>
 </rss>
+
